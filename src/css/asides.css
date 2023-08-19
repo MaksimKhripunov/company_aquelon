@@ -1,0 +1,15 @@
+.left{
+    margin-top: 0;
+    float: left;
+    background: rgba(0, 128, 128, 0.98);
+    height: 84vh;
+    width: 80px;
+}
+
+.right{
+    margin-top: 0;
+    float: right;
+    background: rgba(0, 128, 128, 0.98);
+    height: 84vh;
+    width: 80px;
+}

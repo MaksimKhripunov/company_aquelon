@@ -1,0 +1,39 @@
+
+.ab, .pr, .con {
+    height: 0;
+
+}
+
+
+
+@media screen and (min-width: 800px) {
+    .menu{
+        margin-top: 0;
+        float: right;
+        height: 84vh;
+        width: 5%;
+        text-align: center;
+
+    }
+    .ab, .pr, .con {
+        height: 16px;
+        margin-top: 10px;
+        margin-left: 10px;
+        cursor: pointer;
+        transform: translate(0, 38vh);
+        color: rgba(248, 181, 11,0.5);
+
+    }
+
+    .ab:hover, .pr:hover, .con:hover {
+        margin-top: 10px;
+        margin-left: 10px;
+
+        transform: translate(0, 38vh);
+        color: rgba(248, 181, 11,1);
+
+    }
+}
+
+
+
